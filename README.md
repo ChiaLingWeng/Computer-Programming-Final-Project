@@ -7,7 +7,7 @@ Go to our project ([OurGame - The ZombiNTU](https://github.com/PythonFinalProjec
 Use map created by Tiled editor and build camera perspective for 2P/1P player(s)
 
 
-![](https://imgur.com/NuBjZtA)
+![](https://i.imgur.com/NuBjZtA)
 
 There are 3 different types of objects in our maps, Stone, Proof and Block.
 
@@ -21,12 +21,12 @@ Just as literally, this kind of object is bullet-proof and the bullet will disap
 Different from Stone, Characters can't pass it from any direction, but it's destroyable with bullet.
 
 ## Example
-`Class TiledMap`
+`Class TiledMap`\
 Clear background created using Tiled editor and load with pytmx
 
-`Class Camera`
+`Class Camera`\
 Use camera.update(player_list) to track position of players, then showing on the camera.show surface 
 
-`checkobj1obj2Collision`
+`checkobj1obj2Collision`\
 Track if there are collision events e.g. EnemyStoneCollision, BulletProofCollision...
 If True then trigger bounce back event or remove map object from background
